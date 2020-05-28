@@ -5,6 +5,9 @@ cd ~
 wget https://raw.githubusercontent.com/sckitt/pop-os-setup/master/pop-os.packages
 # Install Cinnamon repo
 sudo add-apt-repository ppa:embrosyn/cinnamon
+# Install Spotify repo
+curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 # Install Sublime Text repo
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo apt-get install apt-transport-https
