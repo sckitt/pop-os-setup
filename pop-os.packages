@@ -1,6 +1,6 @@
 audacity
 autoconf
-autotools
+autotools-dev
 bleachbit
 blender
 cinnamon
@@ -10,6 +10,7 @@ gimp
 git
 ibus
 ibus-anthy
+keepassxc
 libdvd-pkg
 libglm-dev
 libtool
@@ -18,7 +19,6 @@ make
 mpv
 nano
 neofetch
-nextcloud
 paprefs
 piper
 pkg-config
@@ -32,4 +32,3 @@ thunar
 ttf-mscorefonts-installer 
 virtualbox
 vlc
-which
