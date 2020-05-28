@@ -1,18 +1,29 @@
-# fedora-setup
-Setup Script for Fedora
+# pop-os-setup
+Setup Script for Pop!OS
 
 Video Walkthrough
 https://www.youtube.com/watch?v=400g2uVV090
 
 Use the following command to run the script easily in one run:
 
-wget https://raw.githubusercontent.com/ChrisTitusTech/fedora-setup/master/fedora-setup.sh && sudo chmod +x fedora-setup.sh && ./fedora-setup.sh
+wget https://raw.githubusercontent.com/sckitt/pop-os-setup/master/pop-os-setup.sh && sudo chmod +x pop-os-setup.sh && ./pop-os-setup.sh
 
 Below is everything is included in this script:
 
-1. Install workstation repositories (google, rpmfusion, atom)
-2. Install Dropbox and Teamviewer via rpm download
-3. Install packages via DNF (This is 44 package suites)
-**See complete listing @ https://github.com/ChrisTitusTech/fedora-setup/blob/master/fedora.packages
-4. Edit bashrc to make a smarter terminal
-5. Disable Wayland and use Xorg for Graphics
+1. Install custom repositories (Cinnamon DE, Sublime Text, VSCodium)
+2. Install packages without repo (Mullvad VPN, Tixati, Tutanota, Tor, youtube-dl)
+3. Update cache for package installs
+4. Install packages via apt-get (30+ package suites)
+**See complete listing @ https://github.com/sckitt/pop-os-setup/blob/master/pop-os.packages
+
+Below is a list of optional/manual installs:
+
+* [anki](https://apps.ankiweb.net/)
+* [appimage launcher](https://github.com/TheAssassin/AppImageLauncher)
+* [davinci resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
+* improving gaming performance ([DXVK](https://github.com/lutris/docs/blob/master/HowToDXVK.md), [wine dependencies](https://github.com/lutris/docs/blob/master/WineDependencies.md), [driver support](https://github.com/lutris/docs/blob/master/InstallingDrivers.md), [graphics drivers](https://github.com/doitsujin/dxvk/wiki/Driver-support), [liquorix](https://liquorix.net/)) [video walkthrough](https://youtu.be/-jLCjY7PNig?t=466)
+* [mGBA](https://mgba.io/)
+* [projectM](https://github.com/projectM-visualizer/projectM)
+* [spek](http://spek.cc/)
+* [veracrypt](https://www.veracrypt.fr/en/Home.html)
+* [vivaldi](https://vivaldi.com/)
