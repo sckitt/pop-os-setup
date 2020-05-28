@@ -4,7 +4,7 @@ cd ~
 # Set Virtual Box repo
 wget https://raw.githubusercontent.com/sckitt/pop-os-setup/master/pop-os.packages
 # Install Cinnamon repo
-sudo add-apt-repository ppa:embrosyn/cinnamon
+sudo add-apt-repository universe
 # Install KeePassXC repo
 sudo add-apt-repository ppa:phoerious/keepassxc
 # Install Spotify repo
