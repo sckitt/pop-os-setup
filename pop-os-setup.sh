@@ -7,6 +7,8 @@ wget https://raw.githubusercontent.com/sckitt/pop-os-setup/master/pop-os.package
 sudo add-apt-repository universe
 # Install KeePassXC repo
 sudo add-apt-repository ppa:phoerious/keepassxc
+# Install Nextcloud repo
+sudo add-apt-repository ppa:nextcloud-devs/client
 # Install Spotify repo
 curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
@@ -23,8 +25,6 @@ curl -s -v https://api.github.com/repos/mullvad/mullvadvpn-app/releases/latest |
 rm *asc*
 sudo dpkg -i MullvadVPN*
 rm MullvadVPN*
-# Download Nextcloud
-wget https://download.nextcloud.com/desktop/releases/Linux/latest
 # Install Tixati
 wget https://download2.tixati.com/download/tixati_2.73-1_amd64.deb
 sudo dpkg -i tixati_2.73-1_amd64.deb
