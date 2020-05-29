@@ -10,7 +10,7 @@ wget https://raw.githubusercontent.com/sckitt/pop-os-setup/master/pop-os-setup.s
 
 Below is everything is included in this script:
 
-1. Install custom repositories (Cinnamon DE, KeePassXC, Spotify, Sublime Text, VSCodium)
+1. Install custom repositories (Cinnamon DE, KeePassXC, Papirus Icon Theme, Spotify, Sublime Text, VSCodium)
 2. Install packages without repo (Mullvad VPN, Nextcloud, Tixati, Tutanota, Tor, youtube-dl)
 3. Update cache for package installs
 4. Install packages via apt-get (30+ package suites)
