@@ -1,5 +1,5 @@
 # pop-os-setup
-Setup Script for Pop!OS
+Setup Script for Pop!OS 20.04
 
 Video Walkthrough
 https://www.youtube.com/watch?v=400g2uVV090

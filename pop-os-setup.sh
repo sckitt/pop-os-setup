@@ -9,6 +9,8 @@ sudo add-apt-repository universe
 sudo add-apt-repository ppa:phoerious/keepassxc
 # Install Nextcloud repo
 sudo add-apt-repository ppa:nextcloud-devs/client
+# Install Papirus Icon Theme repo
+sudo add-apt-repository ppa:papirus/papirus
 # Install Spotify repo
 curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
