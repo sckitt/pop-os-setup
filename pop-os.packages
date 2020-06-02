@@ -1,4 +1,6 @@
 arc-theme
+at
+audacious
 audacity
 autoconf
 autotools-dev
@@ -14,7 +16,9 @@ ibus-anthy
 keepassxc
 libdvd-pkg
 libglm-dev
+libpulse-dev
 libtool
+libqt5opengl5
 lxterminal
 make
 mpv
@@ -24,7 +28,8 @@ nextcloud-client
 paprefs
 piper
 pkg-config
-pragha
+qt5-default
+qtdeclarative5-dev
 redshift
 spotify-client
 steam
