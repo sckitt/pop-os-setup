@@ -33,6 +33,7 @@ sudo dpkg -i tixati_2.73-1_amd64.deb
 rm tixati_2.73-1_amd64.deb
 # Download Tutanota
 wget https://mail.tutanota.com/desktop/tutanota-desktop-linux.AppImage
+chmod +x tutanota*
 # Download Tor
 wget https://www.torproject.org/dist/torbrowser/9.0.10/tor-browser-linux64-9.0.10_en-US.tar.xz
 tar xf tor-browser-linux64-9.0.10_en-US.tar.xz
