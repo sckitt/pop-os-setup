@@ -19,12 +19,5 @@ Below is everything is included in this script:
 
 Below is a list of optional/manual installs:
 
-* [Anki](https://apps.ankiweb.net/)
-* [AppImage Launcher](https://github.com/TheAssassin/AppImageLauncher)
-* [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
-* improving gaming performance ([DXVK](https://github.com/lutris/docs/blob/master/HowToDXVK.md), [Wine dependencies](https://github.com/lutris/docs/blob/master/WineDependencies.md), [driver support](https://github.com/lutris/docs/blob/master/InstallingDrivers.md), [graphics drivers](https://github.com/doitsujin/dxvk/wiki/Driver-support), [Liquorix](https://liquorix.net/)) [video walkthrough](https://youtu.be/-jLCjY7PNig?t=466)
-* [mGBA](https://mgba.io/)
+* improving gaming performance ([DXVK](https://github.com/lutris/docs/blob/master/HowToDXVK.md), [Wine dependencies](https://github.com/lutris/docs/blob/master/WineDependencies.md), [driver support](https://github.com/lutris/docs/blob/master/InstallingDrivers.md), [graphics drivers](https://github.com/doitsujin/dxvk/wiki/Driver-support)) [video walkthrough](https://youtu.be/-jLCjY7PNig?t=466)
 * [projectM](https://github.com/projectM-visualizer/projectM)
-* [spek](http://spek.cc/)
-* [VeraCrypt](https://www.veracrypt.fr/en/Home.html)
-* [Vivaldi](https://vivaldi.com/)
