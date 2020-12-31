@@ -1,19 +1,7 @@
 #!/usr/bin/bash
 cd ~
-# First we setup the repositories so we can install lots of stuff
-# Set Virtual Box repo
-wget https://raw.githubusercontent.com/sckitt/pop-os-setup/master/pop-os.packages
-# Install Cinnamon repo
-sudo add-apt-repository universe
 # Install KeePassXC repo
 sudo add-apt-repository ppa:phoerious/keepassxc
-# Install Nextcloud repo
-sudo add-apt-repository ppa:nextcloud-devs/client
-# Install Papirus Icon Theme repo
-sudo add-apt-repository ppa:papirus/papirus
-# Install Spotify repo
-curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
-echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 # Install Sublime Text repo
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo apt-get install apt-transport-https
@@ -31,9 +19,6 @@ rm MullvadVPN*
 wget https://download2.tixati.com/download/tixati_2.73-1_amd64.deb
 sudo dpkg -i tixati_2.73-1_amd64.deb
 rm tixati_2.73-1_amd64.deb
-# Download Tutanota
-wget https://mail.tutanota.com/desktop/tutanota-desktop-linux.AppImage
-chmod +x tutanota*
 # Download Tor
 wget https://www.torproject.org/dist/torbrowser/9.0.10/tor-browser-linux64-9.0.10_en-US.tar.xz
 tar xf tor-browser-linux64-9.0.10_en-US.tar.xz
