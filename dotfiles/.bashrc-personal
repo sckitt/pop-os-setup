@@ -54,4 +54,4 @@ alias change-bg="feh --bg-fill --randomize ~/Pictures/wallpapers/japan"
 alias killtor="killall firefox.real"
 
 # backup dotfiles
-alias config-export="cd '/home/user/Documents/github/pop-os-setup/' && sh pop-os-export.sh"
+alias config-export="cd '/home/user/Documents/github/fedora-setup/' && sh fedora-export.sh"

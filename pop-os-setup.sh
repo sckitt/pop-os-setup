@@ -19,11 +19,6 @@ rm MullvadVPN*
 wget https://download2.tixati.com/download/tixati_2.73-1_amd64.deb
 sudo dpkg -i tixati_2.73-1_amd64.deb
 rm tixati_2.73-1_amd64.deb
-# Download Tor
-wget https://www.torproject.org/dist/torbrowser/9.0.10/tor-browser-linux64-9.0.10_en-US.tar.xz
-tar xf tor-browser-linux64-9.0.10_en-US.tar.xz
-rm tor-browser-linux64-9.0.10_en-US.tar.xz
-cd ~
 # Install youtube-dl
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
@@ -33,3 +28,5 @@ sudo apt-get update
 sudo apt-get install $(cat ~/pop-os.packages) -y
 # Install libdvdcss from source
 sudo dpkg-reconfigure libdvd-pkg
+# Link .bashrc to .bashrc-personal
+cat $(pwd)/dotfiles/.bashrc-snippet >> ~/.bashrc
