@@ -1,4 +1,3 @@
-# global "constants" available to all functions in this file
 source .obfuscated-directories
 
 # ibus settings if you need them
@@ -8,19 +7,18 @@ export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 
-### FUNCTIONS
-
 # navigation
-cdc () {
+cdg () {
 	cd ~/Documents/github/$1
 }
 
 # youtube-dl
-ytdlscrape () {
+ytds () {
     channels=(  https://www.youtube.com/channel/UCgjdoTv1mTJirJk_2_30kOw 裏ぱるるーむ
                 https://www.youtube.com/channel/UCaW_iei_YZRuUogGFOXofMw ぱるるーむ 
                 https://www.youtube.com/channel/UC9VMTcvrXISIHyCibiaFfGw 前田亜美
                 https://www.youtube.com/channel/UCDLqvTPnN70jKZNqaDF4GwQ 板野友美
+                https://www.youtube.com/channel/UCA6XWTTtC2f88M2xpmhLRBg 松井珠理奈
                 https://www.youtube.com/channel/UC-MwCIXimPQ_2D5hsb1MFFQ 夜めあ連合)
 
     for (( i=0; i<=${#channels[@]}; i++ )); do
@@ -33,8 +31,6 @@ ytdlscrape () {
     done
 }
 
-### ALIASES
-
 # navigation
 alias ..="cd .." 
 alias .2="cd ../.."
@@ -46,8 +42,8 @@ alias .5="cd ../../../../.."
 alias lss="find . -exec exiftool -S -t -q -FileName -ImageSize  {} + | sort -k2n,2 > dir-dimensions_tmp.txt ; sed '0~2d' dir-dimensions_tmp.txt > dir-dimensions.txt ; rm dir-dimensions_tmp.txt"
 
 # youtube-dl
-alias ytdlbest="youtube-dl -f bestvideo+bestaudio"
-alias ytdlbatch="youtube-dl -f bestvideo+bestaudio -a batch.txt"
+alias ytdb="youtube-dl -f bestvideo+bestaudio"
+alias ytda="youtube-dl -f bestvideo+bestaudio -a batch.txt"
 
 # redshift
 alias rs="redshift -x ; redshift -O"
@@ -59,4 +55,6 @@ alias change-bg="feh --bg-fill --randomize ~/Pictures/wallpapers/japan"
 alias killtor="killall firefox.real"
 
 # backup dotfiles
-alias config-export="cd '/home/user/Documents/github/fedora-setup/' && sh fedora-export.sh"
+alias config-export="cd '/home/user/Documents/github/pop-os-setup/' && sh pop-os-export.sh"
+
+neofetch

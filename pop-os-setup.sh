@@ -37,8 +37,7 @@ install_deb_packages () {
 }
 
 install_apt_packages () {
-    # grab all packages to install
-    sudo apt install $(cat ~/pop-os.packages) -y
+    sudo apt install $(cat pop-os.packages) -y
 }
 
 build_packages () {
@@ -50,14 +49,14 @@ upgrade () {
 }
 
 setup_bashrc () {
-    cat $(pwd)/dotfiles/.bashrc-snippet >> ~/.bashrc
+    echo '[[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal' >> .bashrc
 }
 
 main () {
     #add_repos
     #update
     #install_deb_packages
-    #install_repo_packages
+    #install_apt_packages
     #build_packages
     #upgrade
     #setup_bashrc
